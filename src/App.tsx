@@ -1,7 +1,6 @@
 import React from 'react';
-import Hero from './components/Hero';
 import { Header } from './components/Header';
-import { About } from './components/About';
+import { LayoutComponent } from './components/Layout';
 import '../src/index.css'
 
 export default function App() {
@@ -9,13 +8,18 @@ export default function App() {
     <div className="font-sans">
       <div className="body-div">
         <Header></Header>
-        <About></About>
+        <div className="flex flex-row mt-10" style={{ height: '1000px' }}>
+          {/* multiple grid layout */}
+          <LayoutComponent
+          ></LayoutComponent>
+           {/* Experience side section */}
+          <div className="w-2/5">
+          </div>
+         
+          <div>
+          </div>
+        </div>
       </div>
-      {/* <Hero />
-      <About />
-      <Portfolio />
-      <Interests />
-      <Contact /> */}
     </div>
   );
 }

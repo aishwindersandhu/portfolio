@@ -1,6 +1,6 @@
 .about-grid {
   display: grid;
-  grid-template-columns: auto 1fr;
+  /* grid-template-columns: auto 1fr; */
   /* grid is divided in two columns */
   gap: 2rem;
   max-width: 1200px;
@@ -8,10 +8,14 @@
 }
 
 .about-section {
-  margin-bottom: 3rem;
-  padding-bottom: 5rem;
-  border-bottom: 1px solid #b8ae88;
-  display: flex;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.about-me-header {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .about-image-wrapper {
@@ -20,11 +24,9 @@
 }
 
 .image-style {
-  width: 450px;
-  height: 500px;
+  width: 361px;
   object-fit: cover;
   margin-right: 5rem;
-  margin-left: 5rem;
   border-radius: 10px;
 }
 
