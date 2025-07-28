@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 /* Custom fonts and styles can go here */
+.body-div{
+    background-color: rgb(77, 74, 60);
+    color: rgb(184, 174, 136);
+    width: 100%;
+    padding: 20px;
+}

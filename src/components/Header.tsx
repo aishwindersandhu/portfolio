@@ -1,34 +1,15 @@
 import React from 'react';
+import '../styles/header.css';
 
 export const Header = () => {
-  const styles = {
-    header:{ 
-      display: 'flex', 
-      justifyContent: 'space-between', 
-      alignItems: 'center', 
-      fontFamily:'Sans-serif',
-      fontSize: '20px',
-      padding:'1rem 5rem 1rem 5rem',
-    },
-    name:{
-      fontSize:'25px',
-    },
-    nav:{
-      fontSize:'15px',
-      margin:'0 1rem',
-      textDecoration:'none',
-      color:'#b8ae88',
-      fontWeight:'400'
-    }
-  }
   return (
-    <header style={styles.header}>
-      <h1 style={styles.name}>Aishwinder Sandhu</h1>
+    <header className="header-div">
+      <h1 className="header-name">AISHWINDER SANDHU</h1>
       <nav>
-        <a href="#about" style={styles.nav}>About</a>
-        <a href="#portfolio" style={styles.nav}>Portfolio</a>
-        <a href="#interests" style={styles.nav}>Interests</a>
-        <a href="#contact" style={styles.nav}>Contact</a>
+        <a href="#about" className="header-nav">ABOUT</a>
+        <a href="#portfolio" className="header-nav">PROJECT</a>
+        <a href="#interests" className="header-nav">INTERESTS</a>
+        <a href="#contact"  className="header-nav">CONTACT</a>
       </nav>
     </header>
   )

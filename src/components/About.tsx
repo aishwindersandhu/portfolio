@@ -1,25 +1,10 @@
 import React from 'react';
 import profileImage from '../assets/images/portfolioImage.jpeg';
+import '../styles/about.css';
 
 export const About = () => {
   {/* Intro Section */ }
   const styles = {
-    imageStyle: {
-      width: '450px',
-      height: '500px',
-      objectFit: 'cover',
-      marginRight: '5rem',
-      marginLeft: '5rem',
-      borderRadius: '10px'
-    },
-    sectionStyle:
-    {
-      display: 'flex',
-      alignItems: 'center',
-      marginBottom: '3rem',
-      paddingBottom: '5rem',
-      borderBottom: '1px solid #b8ae88'
-    },
     header2: {
       fontSize: '50px',
       marginBottom: '0.5rem'
@@ -44,37 +29,42 @@ export const About = () => {
     aboutDescription: {
       color: '#b8ae88',
       fontSize: '20px',
-      paddingRight:'5rem'
+      paddingRight: '5rem'
     },
-    interests:{
-      display:'flex'
+    interests: {
+      display: 'flex'
     },
-    interestsDesc:{
-      width:'320px',
-      height:'300px',
-      border:'1px solid #b8ae88',
-      marginRight:'10rem'
+    interestsDesc: {
+      width: '320px',
+      height: '300px',
+      border: '1px solid #b8ae88',
+      marginRight: '10rem'
     }
   }
   return (
     <React.Fragment>
-      <section style={styles.sectionStyle}>
-        <img
-          src={profileImage}
-          alt="Aishwinder_Sandhu"
-          style={styles.imageStyle}
-        />
-        <div>
+      <section className ="about-section">
+        <div className="about-grid">
+          <div className="about-image-wrapper">
+            <img
+              src={profileImage}
+              alt="Aishwinder_Sandhu"
+              className="image-style"
+            />
+          </div>
+            <div className="about-text">
           <h2 style={styles.header2}>Hi, I'm Aishwinder</h2>
           <p style={styles.aboutSection}>
             Front-End Developer with <br /> a Passion for Fashion, Design & Code.
           </p>
           {/* <button style={styles.buttonStyle}>
-            View Work
+            View Work Link Github
           </button> */}
         </div>
+        </div>
+      
       </section>
-      <section style={styles.sectionStyle}>
+      <section >
         <div style={styles.aboutHeader}>
           <h3 style={styles.header3}>About Me</h3>
           <p style={styles.aboutDescription}>
@@ -85,7 +75,7 @@ export const About = () => {
           </p>
         </div>
       </section>
-      <section style={styles.sectionStyle}>
+      <section >
         <div style={styles.aboutHeader}>
           <h3 style={styles.header3}>Interests</h3>
           <div style={styles.interests}>
