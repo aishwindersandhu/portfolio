@@ -3,7 +3,7 @@ import '../styles/header.css';
 
 export const Header = () => {
   return (
-    <header className="header-div">
+    <header className="header-div flex flex-row">
       <h1 className="header-name">AISHWINDER SANDHU</h1>
       <nav>
         <a href="#about" className="header-nav">ABOUT</a>

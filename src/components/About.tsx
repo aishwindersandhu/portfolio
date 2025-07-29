@@ -4,7 +4,7 @@ import '../styles/about.css';
 export const About = () => {
   return (
     <React.Fragment>
-      <section className="bg-black h-full about-section h-full pt-2 p-5">
+      <section className="bg-black h-full about-section pt-2 p-5">
          <div className="mb-10 about-me-header">ABOUT ME</div>
           <div>
             <ul>

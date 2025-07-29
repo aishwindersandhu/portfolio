@@ -12,10 +12,6 @@ export default function App() {
           {/* multiple grid layout */}
           <LayoutComponent
           ></LayoutComponent>
-           {/* Experience side section */}
-          <div className="w-2/5">
-          </div>
-         
           <div>
           </div>
         </div>
