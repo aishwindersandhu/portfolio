@@ -8,7 +8,7 @@ export default function App() {
     <div className="font-sans">
       <div className="body-div">
         <Header></Header>
-        <div className="flex flex-row mt-10" style={{ height: '1000px' }}>
+        <div className="flex flex-row mt-10" style={{ height: 'auto' }}>
           {/* multiple grid layout */}
           <LayoutComponent
           ></LayoutComponent>
