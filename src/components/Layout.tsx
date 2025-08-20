@@ -24,8 +24,8 @@ export const LayoutComponent = () => {
         </div>
       </div>
       <div className="w-2/5">
-        <div className="flex flex-row ml-10"><Experience></Experience></div>
-         <div className="flex flex-row ml-10 mt-5"><Footer></Footer></div>
+        <div className="flex flex-row ml-5"><Experience></Experience></div>
+         <div className="flex flex-row ml-5 mt-5"><Footer></Footer></div>
       </div>
     </react.Fragment>
   )

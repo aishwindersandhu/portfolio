@@ -9,7 +9,8 @@ export const Footer = () =>{
           target="_blank"
           className="header-nav" style={{margin:'1rem 2rem 1rem 2rem'}} >LINKEDIN</a>
         <a href="#portfolio" className="header-nav" style={{margin:'1rem 2rem 1rem 2rem'}}>GMAIL</a>
-        <a href="#interests" className="header-nav" style={{margin:'1rem 2rem 1rem 2rem'}}>GITHUB</a>
+        <a href="https://github.com/aishwindersandhu/"
+          target="_blank" className="header-nav" style={{margin:'1rem 2rem 1rem 2rem'}}>GITHUB</a>
         <a href="#contact"  className="header-nav"></a>
       </nav>
       </div>
