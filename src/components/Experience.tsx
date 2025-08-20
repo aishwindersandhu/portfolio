@@ -1,10 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import '../styles/experience.css';
+import { ThemeContext } from "./ThemeContext";
 
 export const Experience = () => {
+  const {lightMode} = useContext(ThemeContext);
+  const styles  ={
+    experienceSectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full w-full about-section pt-2 p-5`
+  }
   return (
     <React.Fragment>
-      <section className="bg-black h-full w-full about-section pt-2 p-5" >
+      <section className={styles.experienceSectionClass} >
         <div className="w-full h-3/4">
           <div className="mb-10 about-me-header latest-project-title">
             <span>EXPERIENCE</span>

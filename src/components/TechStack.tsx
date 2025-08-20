@@ -1,10 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import '../styles/techStack.css';
+import { ThemeContext } from "./ThemeContext";
 
 export const TechStack = () =>{
+  const {lightMode} = useContext(ThemeContext);
+  const styles ={
+    techSectionClass: `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} tech-stack-section h-full pt-2 p-5`
+  }
   return (
     <React.Fragment>
-       <section className="bg-black tech-stack-section h-full pt-2 p-5">
+       <section className={styles.techSectionClass}>
          <div className="mb-10 tech-stack-title">TECH STACK</div>
           <div>
             <ul>

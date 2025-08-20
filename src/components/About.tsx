@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../styles/about.css';
+import { ThemeContext } from './ThemeContext';
 
 export const About = () => {
+  const {lightMode} = useContext(ThemeContext);
+  const styles ={
+    sectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full about-section pt-2 p-5`
+  }
   return (
     <React.Fragment>
-      <section className="bg-black h-full about-section pt-2 p-5">
+      <section className={styles.sectionClass}>
          <div className="mb-10 about-me-header">ABOUT ME</div>
           <div>
             <ul>
