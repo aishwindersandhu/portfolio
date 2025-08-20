@@ -19,7 +19,6 @@ export const LatestProject = () => {
           <a href="https://github.com/aishwindersandhu/demoaApp/tree/FaceCapture-Component" target="_blank">
             <div style={{ fontSize: '15px', textDecoration: 'underline' }}>Github Link</div>
           </a>
-
         </div>
         <div>
         </div>
