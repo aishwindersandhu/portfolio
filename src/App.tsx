@@ -15,7 +15,6 @@ export default function App() {
         <div className={styles.body}>
           <Header></Header>
           <div className="flex flex-row mt-10" style={{ height: 'auto' }}>
-            {/* multiple grid layout */}
             <LayoutComponent
             ></LayoutComponent>
             <div>

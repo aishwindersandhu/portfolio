@@ -5,7 +5,8 @@ import { ThemeContext } from "./ThemeContext";
 export const Experience = () => {
   const {lightMode} = useContext(ThemeContext);
   const styles  ={
-    experienceSectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full w-full about-section pt-2 p-5`
+    experienceSectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full w-full about-section pt-2 p-5`,
+    launchArrow: `launch-arrow-resume ${lightMode ? `launch-arrow-light`: `launch-arrow-dark`}`
   }
   return (
     <React.Fragment>
@@ -13,7 +14,7 @@ export const Experience = () => {
         <div className="w-full h-3/4">
           <div className="mb-10 about-me-header latest-project-title">
             <span>EXPERIENCE</span>
-            <span className="launch-arrow-resume">
+            <span className={styles.launchArrow}>
               <a href="https://drive.google.com/file/d/1enUL9tsOVM8e-8hBEuKQUnirUsoXOT5y/view?raw=1"
                 target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="37-Arrow Up">

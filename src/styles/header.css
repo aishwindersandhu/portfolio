@@ -8,20 +8,16 @@
   border-radius: 15px;
   height: 100px;
 }
-
 .header-div-dark {
   background-color: black;
 }
-
 .header-div-light {
   background-color: rgb(184, 174, 136);
 }
-
 .header-name {
   font-size: 20px;
   font-style: italic;
 }
-
 .header-nav {
   font-size: 15px;
   margin: 0px 1rem;

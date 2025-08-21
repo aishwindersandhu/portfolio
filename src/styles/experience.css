@@ -1,8 +1,15 @@
-.launch-arrow-resume{
-  fill:#B8AE88;
-  height:20px;
-  width:20px;
+.launch-arrow-resume {
+  height: 20px;
+  width: 20px;
   float: right;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.launch-arrow-dark {
+  fill: #B8AE88;
+}
+
+.launch-arrow-light {
+  fill: #000;
 }

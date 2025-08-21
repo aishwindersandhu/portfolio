@@ -10,21 +10,10 @@ export const About = () => {
   return (
     <React.Fragment>
       <section className={styles.sectionClass}>
-         <div className="mb-10 about-me-header">ABOUT ME</div>
+         <div className="mb-5 about-me-header">ABOUT ME</div>
           <div>
-            <ul>
-              <li>
-                {/* insert icons */}
-                Front-End Developer with over 5 years of industry experience.
-              </li>
-              <li>
-                {/* insert icons */}
-                Believes in creating and devloping smooth and seamless user experience.
-              </li>
-              <li>UI/UX Design and AI/ML Enthusiast.</li>
-              <li>Fashion, Travel and Coffee Driven</li>
-              <li></li>
-            </ul>
+            <p style={{fontSize:'20px'}}>Front-End Developer | UI/UX & AI/ML Enthusiast</p>
+            <p className="mt-5">With 5+ years of crafting seamless and engaging digital experiences, I thrive on turning complex ideas into intuitive, user-friendly interfaces. Passionate about UI/UX design and exploring the potential of AI/ML in creating smarter interactions. When I’m not coding, you’ll find me fueled by coffee, exploring new travel destinations, or keeping up with the latest in fashion.</p>
           </div>
       </section>
     </React.Fragment>
