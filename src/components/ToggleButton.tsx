@@ -1,15 +1,22 @@
-import react, { useState, useContext } from "react";
+import react, { useState, useContext, useEffect } from "react";
 import { ThemeContext } from "./ThemeContext";
 
 export const ToggleButton = () => {
   const { lightMode, toggleTheme } = useContext(ThemeContext);
   const [fillColor, setFillColor] = useState('#000');
   const [strokeColor, setStrokeColor] = useState('#B8AE88');
-  const [ellipseX, setEllipseX] = useState('34.33');
+  const [ellipseX, setEllipseX] = useState(null);
+
+  useEffect(() => {
+    //Change Button only if Light mode changes
+    changeButtonDetails();
+  }, [lightMode]);
+  const changeButtonDetails = () => {
+    setFillColor(lightMode ? '#B8AE88' : '#000');
+    setStrokeColor(lightMode ? '#000' : '#B8AE88');
+    setEllipseX(prev => prev === '34.33' ? '108' : '34.33');
+  }
   const toggleButton = () => {
-    fillColor == !lightMode ? setFillColor('#000') : setFillColor('#B8AE88');
-    strokeColor == !lightMode ? setStrokeColor('#B8AE88') : setStrokeColor('#000');
-    ellipseX == '34.33' ? setEllipseX('108') : setEllipseX('34.33');
     toggleTheme();
   }
   return (

@@ -7,11 +7,12 @@ export const Header = () => {
   const {lightMode} = useContext(ThemeContext);
   const styles ={
     header: `header-div ${lightMode ? `header-div-light` : `header-div-dark`} flex flex-row`,
-    headerNav: `header-nav ${lightMode ? `header-nav-light`:`header-nav-dark`}`
+    headerNav: `header-nav ${lightMode ? `header-nav-light`:`header-nav-dark`}`,
+    headerName: `header-name ${lightMode ? `header-nav-light`:`header-nav-dark`} w-1/4`
   }
   return (
     <header className={styles.header}>
-      <h1 className="header-name w-1/4">AISHWINDER SANDHU</h1>
+      <h1 className={styles.headerName}>AISHWINDER SANDHU</h1>
       <div className="flex items-center space-x-6">
         <nav className="flex space-x-6">
           <a href="#about" className={styles.headerNav}>ABOUT</a>

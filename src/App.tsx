@@ -4,8 +4,6 @@ import { ThemeContext, ThemeContextProvider } from './components/ThemeContext';
 import { LayoutComponent } from './components/Layout';
 import '../src/index.css';
 //can also include styled components here, to improve way of writing and assembling components
-
-
 export default function App() {
   const { lightMode } = useContext(ThemeContext);
   //use it for styling
@@ -13,8 +11,6 @@ export default function App() {
     body: lightMode ? 'body-div-light':'body-div-dark'
   }
   return (
-    <ThemeContextProvider>
-      {/* Children props for ThemeContext Provider */}
       <div className="font-sans">
         <div className={styles.body}>
           <Header></Header>
@@ -27,6 +23,5 @@ export default function App() {
           </div>
         </div>
       </div>
-    </ThemeContextProvider>
   );
 }
