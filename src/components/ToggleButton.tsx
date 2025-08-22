@@ -23,7 +23,7 @@ export const ToggleButton = () => {
     <svg xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 140 70.16"
       height="20"
-      width="40"
+      width="30"
       preserveAspectRatio="xMidYMid meet"
       className="cursor-pointer"
       onClick={() => {
