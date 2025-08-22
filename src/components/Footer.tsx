@@ -4,7 +4,7 @@ import { ThemeContext } from './ThemeContext';
 export const Footer = () => {
   const {lightMode} = useContext(ThemeContext);
   const styles = {
-    footerSection: `${lightMode ? `bg-[#B8AE88]`:`bg-black`} h-full about-section pt-2 p-5 w-full`
+    footerSection: `${lightMode ? `bg-[#CEC4A7]`:`bg-black`} h-full about-section pt-2 p-5 w-full`
   }
   return (
     <React.Fragment>

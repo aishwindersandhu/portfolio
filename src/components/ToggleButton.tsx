@@ -12,8 +12,8 @@ export const ToggleButton = () => {
     changeButtonDetails();
   }, [lightMode]);
   const changeButtonDetails = () => {
-    setFillColor(lightMode ? '#B8AE88' : '#000');
-    setStrokeColor(lightMode ? '#000' : '#B8AE88');
+    setFillColor(lightMode ? '#CEC4A7' : '#000');
+    setStrokeColor(lightMode ? '#000' : '#CEC4A7');
     setEllipseX(prev => prev === '34.33' ? '108' : '34.33');
   }
   const toggleButton = () => {
