@@ -115,7 +115,7 @@ export const StackTabs = () => {
         ))}
       </div>
       {/* Tab content */}
-      <div className="px-3 rounded-lg text-center">
+      <div className="px-3 rounded-lg text-center relative h-[100px] overflow-y-auto custom-scrollbar custom-scrollbar-dark dark:custom-scrollbar-light">
         {
           categories.map((tab)=>{
             if(tab.name === activeTab){

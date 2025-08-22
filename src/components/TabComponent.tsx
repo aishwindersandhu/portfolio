@@ -6,9 +6,9 @@ export const TabComponent = ({ iconList }) => {
     iconList.map((icon) => {
       const iconName = icon.name.toLowerCase();
       const iconDiv = <div className="relative group flex flex-col 
-text-center p-3 border w-20 h-20 
-border-white dark:border-white/10 rounded-xl 
-bg-white/30 dark:bg-white/10 shadow-2xl shadow-indigo-950/5"
+          text-center p-3 border w-20 h-20 
+          border-white dark:border-white/10 rounded-xl 
+          bg-white/30 dark:bg-white/10 shadow-2xl shadow-indigo-950/5"
         style={{ width: '60px', height: '60px', justifyContent: 'center', alignItems: 'center' }}>
         <a href={icon.link}
           target="_blank"
@@ -26,7 +26,7 @@ bg-white/30 dark:bg-white/10 shadow-2xl shadow-indigo-950/5"
     return iconsArr;
   }
   return (
-    <div className="flex flex-row flex-wrap gap-2" style={{ justifyContent: 'center' }}>
+    <div className="flex flex-row flex-wrap gap-2 " style={{ justifyContent: 'center' }}>
       {renderToolkit()}
     </div>
   )

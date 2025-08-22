@@ -6,7 +6,7 @@ import { StackTabs } from "./techStackTabs";
 export const TechStack = () => {
   const { lightMode } = useContext(ThemeContext);
   const styles = {
-    techSectionClass: `${lightMode ? `bg-[#EAE4D7]` : `bg-black`} tech-stack-section h-full pt-2 p-5`
+    techSectionClass: `${lightMode ? `bg-[#EAE4D7]` : `bg-black`} tech-stack-section pt-2 p-5`
   }
  
   return (
