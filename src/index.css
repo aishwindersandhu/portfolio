@@ -3,47 +3,59 @@
 @tailwind utilities;
 
 /* Custom fonts and styles can go here */
-.body-div-dark{
+.body-div-dark {
     background-color: rgb(77, 74, 60);
     color: rgb(184, 174, 136);
     width: 100%;
-    padding: 20px;
+    height: max-content;
+    padding: 2rem;
 }
-.body-div-light{
-    background-color:#fff;
-    color:#000;
+
+.body-div-light {
+    background-color: #fff;
+    color: #000;
     width: 100%;
-    padding: 20px;
+    height: max-content;
+    padding: 2rem;
 }
+
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px; /* width of the scrollbar */
+    width: 8px;
+    /* width of the scrollbar */
 }
 
 .custom-scrollbar-dark::-webkit-scrollbar-track {
-  background:  #B8AE88; /* background of the track */
-  border-radius: 8px;
+    background: #B8AE88;
+    /* background of the track */
+    border-radius: 8px;
 }
 
 .custom-scrollbar-dark::-webkit-scrollbar-thumb {
-  background-color: #000; /* color of the thumb */
-  border-radius: 8px;
-  border: 0.5px solid #B8AE88; /* optional border around thumb */
+    background-color: #000;
+    /* color of the thumb */
+    border-radius: 8px;
+    border: 0.5px solid #B8AE88;
+    /* optional border around thumb */
 }
 
 .custom-scrollbar-light::-webkit-scrollbar-thumb:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 .custom-scrollbar-light::-webkit-scrollbar-track {
-  background:  #B8AE88; /* background of the track */
-  border-radius: 8px;
+    background: #000;
+    /* background of the track */
+    border-radius: 8px;
 }
 
 .custom-scrollbar-light::-webkit-scrollbar-thumb {
-  background-color: #000; /* color of the thumb */
-  border-radius: 8px;
-  border: 0.5px solid #B8AE88; /* optional border around thumb */
+    background-color: #B8AE88;
+    /* color of the thumb */
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    /* optional border around thumb */
 }
 
 .custom-scrollbar-light::-webkit-scrollbar-thumb:hover {
-  cursor: pointer;
+    cursor: pointer;
 }

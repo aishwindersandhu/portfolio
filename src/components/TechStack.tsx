@@ -12,7 +12,7 @@ export const TechStack = () => {
   return (
     <React.Fragment>
       <section className={styles.techSectionClass}>
-        <div className="mb-5 tech-stack-title">My Toolkit</div>
+        <div className="mb-5 tech-stack-title">MY TOOLKIT</div>
         <StackTabs></StackTabs>
       </section>
     </React.Fragment>

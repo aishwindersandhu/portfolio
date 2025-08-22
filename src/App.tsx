@@ -14,7 +14,7 @@ export default function App() {
       <div className="font-sans">
         <div className={styles.body}>
           <Header></Header>
-          <div className="flex flex-row mt-10" style={{ height: 'auto' }}>
+          <div className="flex flex-row mt-5" style={{ height: 'auto' }}>
             <LayoutComponent
             ></LayoutComponent>
             <div>
