@@ -15,7 +15,7 @@ export const Experience = () => {
           <div className="mb-5 about-me-header latest-project-title">
             <span>EXPERIENCE</span>
             <span className={styles.launchArrow}>
-              <a href="https://drive.google.com/file/d/1enUL9tsOVM8e-8hBEuKQUnirUsoXOT5y/view?raw=1"
+              <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://drive.usercontent.google.com/download?id=1enUL9tsOVM8e-8hBEuKQUnirUsoXOT5y&authuser=0&acrobatPromotionSource=GoogleDriveNativeView"
                 target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="37-Arrow Up">
                   <path d="M30 18v7a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h6V0H7a7 7 0 0 0-7 7v18a7 7 0 0 0 7 7h18a7 7 0 0 0 7-7v-7z" /><path d="M6.29 24.29 7.7 25.7 28 5.41V14h2V3a1 1 0 0 0-1-1H17v2h9.59z" /></g>
