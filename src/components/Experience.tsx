@@ -12,7 +12,7 @@ export const Experience = () => {
     <React.Fragment>
       <section className={styles.experienceSectionClass} >
         <div className="w-full h-3/4">
-          <div className="mb-10 about-me-header latest-project-title">
+          <div className="mb-5 about-me-header latest-project-title">
             <span>EXPERIENCE</span>
             <span className={styles.launchArrow}>
               <a href="https://drive.google.com/file/d/1enUL9tsOVM8e-8hBEuKQUnirUsoXOT5y/view?raw=1"
@@ -22,6 +22,38 @@ export const Experience = () => {
                 </svg>
               </a>
             </span>
+          </div>
+          <div className="mb-5 about-me-header experience-sub-heading">
+            <div className="experience-data-heading">EDUCATION</div>
+            <div className="experience-data"><b>University College Dublin</b> | MSc. Information Systems (2:1)</div>
+            <div className="experience-data"><b>Symbiosis International University</b> | BTech. Computer Science (3.34)</div>
+          </div>
+            <div className="mb-5 about-me-header experience-sub-heading">
+            <div className="experience-data-heading">PROFESSIONAL EXPERIENCE</div>
+            <div className="experience-data"> 
+              <a  href="https://www.wipro.com/" target="_blank"><b>Wipro Technologies, Consltant to HSBC - London (2020-2022) </b></a>
+              <ul className="experience-data-list">
+                <li>Developed a Financial Dashboard for the employees of HSBC, for tracking their data ,clients data and deals.</li>
+                {/* Tabs for experience */}
+              </ul>
+            </div>
+            <div className="experience-data">
+              <a  href="https://www.tripeasy.com/" target="_blank"><b>Internet Travel Solutions (2019-2020)</b></a>
+              <ul className="experience-data-list">
+                <li>Led the migration of already existing product from AngularJS to ReactJS.</li>
+                {/* Tabs for experience */}
+              </ul>
+            </div>
+            <div className="experience-data">
+              <a  href="https://www.questglobal.com/" target="_blank"><b>Mobiliya Technologies (2017-2019)</b></a>
+               <ul className="experience-data-list">
+                <li>Consumed & constributed to HP's internal library - Veneer Native.</li>
+                <li>Awarded #3, highest code contributor in development.</li>
+                {/* Tabs for experience */}
+              </ul>
+              </div>
+            <div className="experience-data"><a  href="https://www.questglobal.com/" target="_blank"><b>Freelance Software Developer (2022-2024)</b></a></div>
+
           </div>
 
         </div>

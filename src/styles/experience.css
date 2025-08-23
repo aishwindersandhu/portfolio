@@ -13,3 +13,17 @@
 .launch-arrow-light {
   fill: #000;
 }
+.experience-sub-heading{
+  font-size: 18px;
+}
+.experience-data{
+  font-size: 16px;
+  padding-top:10px;
+}
+.experience-data-heading{
+  text-decoration: underline;
+}
+.experience-data-list{
+  margin-left: 10px !important;
+  list-style: inside;
+}

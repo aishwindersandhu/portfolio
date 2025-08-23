@@ -2,10 +2,10 @@ import React from 'react';
 
 export const TabComponent = ({ iconList }) => {
   const renderToolkit = () => {
-    let iconsArr = [];
+    let iconsArr: HTMLElement[] = [];
     iconList.map((icon) => {
       const iconName = icon.name.toLowerCase();
-      const iconDiv = <div className="relative group flex flex-col 
+      const iconDiv  = <div className="relative group flex flex-col 
           text-center p-3 border w-20 h-20 
           border-white dark:border-white/10 rounded-xl 
           bg-white/30 dark:bg-white/10 shadow-2xl shadow-indigo-950/5"

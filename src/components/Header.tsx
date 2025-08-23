@@ -17,7 +17,7 @@ export const Header = () => {
         <nav className="flex space-x-6">
           <a href="#about" className={styles.headerNav}>ABOUT</a>
           <a href="#portfolio" className={styles.headerNav}>PROJECT</a>
-          <a href="#interests" className={styles.headerNav}>INTERESTS</a>
+          <a href="#interests" className={styles.headerNav}>JOURNEY</a>
           <a href="#contact" className={styles.headerNav}>CONTACT</a>
         </nav>
         <ToggleButton></ToggleButton>
