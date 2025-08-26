@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Header } from './components/Header';
 import { ThemeContext, ThemeContextProvider } from './components/ThemeContext';
 import { LayoutComponent } from './components/Layout';
+import { Footer } from './components/Footer';
 import '../src/index.css';
 //can also include styled components here, to improve way of writing and assembling components
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <div>
             </div>
           </div>
+           <div className="flex flex-row  mt-5"><Footer></Footer></div>
         </div>
       </div>
   );

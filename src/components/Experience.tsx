@@ -53,7 +53,6 @@ export const Experience = () => {
               </ul>
               </div>
             <div className="experience-data"><a  href="https://www.questglobal.com/" target="_blank"><b>Freelance Software Developer (2022-2024)</b></a></div>
-
           </div>
 
         </div>

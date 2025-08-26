@@ -25,8 +25,6 @@ export const LayoutComponent = () => {
       </div>
       <div className="w-2/5">
         <div className="flex flex-row ml-5"><Experience></Experience></div>
-        {/* Extract this out to header level */}
-         <div className="flex flex-row ml-5 mt-5"><Footer></Footer></div>
       </div>
     </react.Fragment>
   )
