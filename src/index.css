@@ -8,7 +8,7 @@
     color: rgb(184, 174, 136);
     width: 100%;
     height: max-content;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .body-div-light {
@@ -16,7 +16,7 @@
     color: #000;
     width: 100%;
     height: max-content;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .custom-scrollbar::-webkit-scrollbar {

@@ -5,3 +5,6 @@
 .footerTech{
   text-decoration: underline;
 }
+.footerTech:hover{
+    color:#4C4B7B;
+}
