@@ -15,6 +15,7 @@
 .about-me-header {
     font-size: 25px;
     font-weight: 300;
+    padding-top:10px;
 }
 
 .about-image-wrapper {
@@ -26,6 +27,14 @@
   width: 361px;
   object-fit: cover;
   border-radius: 10px;
+}
+.about-me-headline{
+  font-size:18px;
+  font-weight:400;
+}
+.about-me-details{
+  font-weight: 300;
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {

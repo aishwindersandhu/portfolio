@@ -1,10 +1,17 @@
-.footerNote{
+.footerNote {
   font-size: 13px;
-  padding: 5px;
+  padding: 10px 20px;
 }
-.footerTech{
+
+.footerTech {
   text-decoration: underline;
 }
-.footerTech:hover{
-    color:#4C4B7B;
+
+.footerTech:hover {
+  color: #4C4B7B;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: flex-end;
 }

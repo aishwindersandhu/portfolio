@@ -1,11 +1,12 @@
 import React,{useContext} from "react";
 import '../styles/experience.css';
 import { ThemeContext } from "./ThemeContext";
+import { TabData } from "./tabData";
 
 export const Experience = () => {
   const {lightMode} = useContext(ThemeContext);
   const styles  ={
-    experienceSectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full w-full about-section pt-2 p-5`,
+    experienceSectionClass : `${lightMode ? `bg-[#EAE4D7]`:`bg-black`} h-full w-full about-section pt-2 px-4`,
     launchArrow: `launch-arrow-resume ${lightMode ? `launch-arrow-light`: `launch-arrow-dark`}`
   }
   return (
@@ -23,12 +24,12 @@ export const Experience = () => {
               </a>
             </span>
           </div>
-          <div className="mb-5 about-me-header experience-sub-heading">
+          <div className=" about-me-header experience-sub-heading">
             <div className="experience-data-heading">EDUCATION</div>
             <div className="experience-data"><b>University College Dublin</b> | MSc. Information Systems (2:1)</div>
             <div className="experience-data"><b>Symbiosis International University</b> | BTech. Computer Science (3.34)</div>
           </div>
-            <div className="mb-5 about-me-header experience-sub-heading">
+            <div className="about-me-header experience-sub-heading">
             <div className="experience-data-heading">PROFESSIONAL EXPERIENCE</div>
             <div className="experience-data"> 
               <a  href="https://www.wipro.com/"
@@ -36,7 +37,7 @@ export const Experience = () => {
                target="_blank"><b>Wipro Technologies, Consltant to HSBC - London (2020-2022) </b></a>
               <ul className="experience-data-list">
                 <li>Developed a Financial Dashboard for the employees of HSBC, for tracking their data ,clients data and deals.</li>
-                {/* Tabs for experience */}
+                  <div className="flex flex-row"><TabData techUsed ={['ReactJs','Redux','HTML','CSS','Jest','CucumberJS']}></TabData></div>
               </ul>
             </div>
             <div className="experience-data">
@@ -45,7 +46,7 @@ export const Experience = () => {
                target="_blank"><b>Internet Travel Solutions (2019-2020)</b></a>
               <ul className="experience-data-list">
                 <li>Led the migration of already existing product from AngularJS to ReactJS.</li>
-                {/* Tabs for experience */}
+               <div className="flex flex-row"><TabData techUsed ={['ReactJs','AngularJS','HTML & CSS','Cordova','UI/UX']}></TabData></div>
               </ul>
             </div>
             <div className="experience-data">
@@ -55,16 +56,15 @@ export const Experience = () => {
                <ul className="experience-data-list">
                 <li>Consumed & constributed to HP's internal library - Veneer Native.</li>
                 <li>Awarded #3, highest code contributor in development.</li>
-                {/* Tabs for experience */}
+                <div className="flex flex-row"><TabData techUsed ={['ReactJs','React Native','UWP','CSS','AngularJS','Javascript']}></TabData></div>
               </ul>
               </div>
             <div className="experience-data">
               <a  href="https://new-branch--condescending-montalcini-ddb8d9.netlify.app/"  className="experience-data-list-heading" target="_blank"><b>Freelance Software Developer (2022-2024)</b></a>
                 <ul className="experience-data-list">
-                <li>Implemented a Pets Website.</li>
-                <li>Implemented payments/subscription with Python and Chargebee.</li>
+                <li>Implemented a Pets Shopping Website with Revamped UI</li>
                 <li>Tailored UI for a progressive-web application(client-specific).</li>
-                {/* Tabs for experience */}
+                <div className="flex flex-row"><TabData techUsed ={['ReactJs','Python','GraphQL','HTML & CSS','Figma']}></TabData></div>
               </ul></div>
           </div>
 

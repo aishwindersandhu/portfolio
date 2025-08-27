@@ -5,7 +5,7 @@ import '../styles/footer.css';
 export const Footer = () => {
   const { lightMode } = useContext(ThemeContext);
   const styles = {
-    footerSection: `${lightMode ? `bg-[#CEC4A7]` : `bg-black`} h-full about-section pt-2 p-5 w-full`,
+    footerSection: `${lightMode ? `bg-[#CEC4A7]` : `bg-black`} h-full about-section w-full`,
     linkedinIcon: lightMode ? 'linkedinLight' : 'linkedinDark',
     gmailIcon: lightMode ? 'gmailLight' : 'gmailDark',
     githubIcon: lightMode ? 'githubLight' : 'githubDark'
@@ -20,7 +20,7 @@ export const Footer = () => {
               <a href="https://www.typescriptlang.org/" className="footerTech" target="_blank">Typescript</a> and <a href="https://tailwindcss.com/" className="footerTech" target="_blank">Tailwind CSS</a>, deployed with <a href="https://www.netlify.com/" target="_blank" className="footerTech">Netlify</a>. </div>
           </div>
           <div className="w-3/5">
-            <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
+            <nav className="footerNav">
               <a href="https://www.linkedin.com/in/aishwinder-sandhu-3b5002102/"
                 target="_blank"
                 className="header-nav" style={{ margin: '1rem' }} >

@@ -9,19 +9,18 @@
 .launch-arrow-dark {
   fill: #B8AE88;
 }
-
 .launch-arrow-light {
   fill: #000;
 }
 .experience-sub-heading{
-  font-size: 18px;
+  font-size: 17px;
 }
 .experience-data{
   font-size: 16px;
-  padding-top:10px;
 }
 .experience-data-heading{
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 .experience-data-list{
   margin-left: 10px !important;
