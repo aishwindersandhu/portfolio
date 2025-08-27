@@ -17,6 +17,7 @@
 }
 .experience-data{
   font-size: 16px;
+  padding: 5px;
 }
 .experience-data-heading{
   text-decoration: underline;
@@ -28,4 +29,8 @@
 }
 .experience-data-list-heading:hover{
     color:#4C4B7B;
+}
+.professional-experience{
+    height: 400px;
+    overflow-y: scroll;
 }

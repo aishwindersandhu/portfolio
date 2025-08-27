@@ -29,7 +29,7 @@ export const Experience = () => {
             <div className="experience-data"><b>University College Dublin</b> | MSc. Information Systems (2:1)</div>
             <div className="experience-data"><b>Symbiosis International University</b> | BTech. Computer Science (3.34)</div>
           </div>
-            <div className="about-me-header experience-sub-heading">
+            <div className="about-me-header experience-sub-heading professional-experience">
             <div className="experience-data-heading">PROFESSIONAL EXPERIENCE</div>
             <div className="experience-data"> 
               <a  href="https://www.wipro.com/"
