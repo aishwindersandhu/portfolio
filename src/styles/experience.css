@@ -9,28 +9,84 @@
 .launch-arrow-dark {
   fill: #B8AE88;
 }
+
 .launch-arrow-light {
   fill: #000;
 }
-.experience-sub-heading{
+
+.experience-sub-heading {
   font-size: 17px;
 }
-.experience-data{
+
+.experience-data {
   font-size: 16px;
   padding: 5px;
 }
-.experience-data-heading{
+
+.experience-data-heading {
   text-decoration: underline;
   padding-bottom: 10px;
 }
-.experience-data-list{
+
+.experience-data-list {
   margin-left: 10px !important;
   list-style: inside;
 }
-.experience-data-list-heading:hover{
-    color:#4C4B7B;
+
+.experience-data-list-heading:hover {
+  color: #4C4B7B;
 }
-.professional-experience{
-    height: 400px;
-    overflow-y: scroll;
+
+.professional-experience {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+.professional-content {
+  height: 345px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+.custom-scrollbar-experience::-webkit-scrollbar {
+    width: 8px;
+    /* width of the scrollbar */
+}
+
+.custom-scrollbar-experience-dark::-webkit-scrollbar-track {
+    background: #B8AE88;
+    /* background of the track */
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.custom-scrollbar-experience-dark::-webkit-scrollbar-thumb {
+    background-color: #000;
+    /* color of the thumb */
+    border-radius: 8px;
+    border: 0.5px solid #B8AE88;
+    /* optional border around thumb */
+}
+
+.custom-scrollbar-experience-light::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+.custom-scrollbar-experience-light::-webkit-scrollbar-track {
+    background: #000;
+    /* background of the track */
+    border-radius: 8px;
+}
+
+.custom-scrollbar-experience-light::-webkit-scrollbar-thumb {
+    background-color: #B8AE88;
+    /* color of the thumb */
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    /* optional border around thumb */
+}
+
+.custom-scrollbar-experience-light::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
 }
